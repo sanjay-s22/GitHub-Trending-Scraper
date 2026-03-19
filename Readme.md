@@ -1,6 +1,6 @@
 # GitHub Trending Scraper with AI Summaries
 
-A Python script that scrapes the top 10 repositories from [GitHub Trending](https://github.com/trending) and uses **Groq API (llama-3.1-8b-instant)** to generate a plain-English 2-line summary for each repo. Results are printed to the console and saved to a JSON file.
+A Python script that scrapes the top 10 repositories from [GitHub Trending](https://github.com/trending) and uses **Groq API (llama-3.1-8b-instant)** to generate a simple-English 2-line summary for each repo. Results are printed to the console and saved to a JSON file.
 
 ---
 
@@ -19,7 +19,7 @@ A Python script that scrapes the top 10 repositories from [GitHub Trending](http
 **Clone the repo and set up a virtual environment:**
 
 ```bash
-git clone https://github.com/your-username/sanjay-learning.git
+git clone https://github.com/sanjay-s0/Github-Trending-Scraper.git
 cd sanjay-learning
 python -m venv venv
 venv\Scripts\activate  # Windows
@@ -88,7 +88,7 @@ Results are also saved to `trending_results.json`.
 ## Project structure
 
 ```
-sanjay-learning/
+Github-Trending-Scraper/
 ├── github_trends.py       # Main scraper + AI summary script
 ├── requirements.txt       # Python dependencies
 ├── .env                   # API key (gitignored)
