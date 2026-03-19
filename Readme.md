@@ -19,7 +19,7 @@ A Python script that scrapes the top 10 repositories from [GitHub Trending](http
 **Clone the repo and set up a virtual environment:**
 
 ```bash
-git clone https://github.com/sanjay-s0/Github-Trending-Scraper.git
+git clone https://github.com/sanjay-s22/Github-Trending-Scraper.git
 cd sanjay-learning
 python -m venv venv
 venv\Scripts\activate  # Windows
